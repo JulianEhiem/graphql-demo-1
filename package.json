@@ -1,0 +1,29 @@
+{
+  "name": "graphql-demo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianEhiem/graphql-demo-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianEhiem/graphql-demo-1/issues"
+  },
+  "homepage": "https://github.com/JulianEhiem/graphql-demo-1#readme",
+  "dependencies": {
+    "@apollo/server": "^4.0.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "typescript": "^4.8.4"
+  }
+}
